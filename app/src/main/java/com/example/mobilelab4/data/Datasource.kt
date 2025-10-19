@@ -2,6 +2,7 @@ package com.example.mobilelab4.data
 import com.example.mobilelab4.R
 import com.example.mobilelab4.model.Affirmation
 
+
 class Datasource() {
     fun loadAffirmations(): List<Affirmation> {
         return listOf<Affirmation>(
